@@ -1,0 +1,1 @@
+import { initModal } from "./modules/modal/modal"; import { initScrollLogger } from "./modules/scroll/scroll"; import { loadPosts } from "./modules/posts/posts"; initModal(); initScrollLogger(); loadPosts();

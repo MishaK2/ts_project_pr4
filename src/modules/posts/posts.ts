@@ -1,0 +1,1 @@
+import type { Post } from "../../types/Post"; export async function loadPosts():Promise<void>{const res=await fetch("https://jsonplaceholder.typicode.com/posts"); const posts:Post[]=await res.json(); const c=document.getElementById("posts") as HTMLDivElement; c.innerHTML=posts.slice(0,5).map(p=>`<h3>${p.title}</h3><p>${p.body}</p>`).join("");}
