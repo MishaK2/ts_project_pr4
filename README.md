@@ -10,3 +10,16 @@
 
 ## 📁 Структура проєкту
 
+src/
+│ main.ts
+│
+├── modules/
+│ ├── modal/
+│ │ └── modal.ts
+│ ├── posts/
+│ │ └── posts.ts
+│ └── scroll/
+│ └── scroll.ts
+│
+└── types/
+└── Post.ts
